@@ -2,7 +2,14 @@
     max-width: 1184px;
     display: flex;
     justify-content: space-between;
-    margin: 0 24px 24px 24px;
+    margin: 0 48px 24px 48px;
+}
+
+@media all and (max-width: 1024px) {
+    .footer {
+        margin-left: 16px;
+        margin: 0 24px 24px 24px;
+    }   
 }
 
 @media all and (max-width: 767px) {

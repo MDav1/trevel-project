@@ -3,7 +3,7 @@
     margin: 0 auto 0 auto;
     gap: 80px;
     display: grid;
-    padding-bottom: 92px;
+    padding-bottom: 80px;
 }
 
 @media all and (max-width: 1024px) {
@@ -20,7 +20,7 @@
     }   
 }
 
-@media all and (max-width: 630px) {
+@media all and (max-width: 740px) {
     .places {
         max-width: 100%;
         padding-bottom: 66px;

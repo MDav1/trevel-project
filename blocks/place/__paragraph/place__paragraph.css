@@ -10,7 +10,7 @@
     margin-bottom: 0;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 800px) {
     .place__paragraph {
         font-size: 16px;
         line-height: 26px;
@@ -19,7 +19,7 @@
     }   
 }
 
-@media all and (max-width: 630px) {
+@media all and (max-width: 740px) {
     .place__paragraph {
         max-width: calc(100% - 32px);
         margin: 0 auto 25px auto;

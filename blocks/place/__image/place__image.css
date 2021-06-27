@@ -9,13 +9,13 @@
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 900px) {
     .place__image {
         max-width: 340px;
     }
 }
 
-@media all and (max-width: 630px) {
+@media all and (max-width: 740px) {
     .place__image {
         grid-row: auto;
         margin-bottom: 32px;

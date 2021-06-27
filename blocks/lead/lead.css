@@ -1,5 +1,24 @@
 .lead {
-    width: 100%;
+    max-width: 984px;
     margin: 0 auto 92px auto;
     max-width: 984px;
+}
+
+@media all and (max-width: 1024px) {
+    .lead {
+        max-width: calc(100% - 96px);
+    }
+}
+
+@media all and (max-width: 768px) {
+    .lead {
+        max-width: 100%;
+        margin: 0 auto 88px auto;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .lead {
+        margin: 0 auto 64px auto;
+    }
 }

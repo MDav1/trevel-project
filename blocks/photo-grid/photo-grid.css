@@ -22,7 +22,7 @@
     }
 }
 
-@media all and (max-width: 630px) {
+@media all and (max-width: 700px) {
     .photo-grid {
         max-width: calc(100% - 32px);
         grid-gap: 12px;

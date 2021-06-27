@@ -5,14 +5,15 @@
     line-height: 76px;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 900px) {
     .place__title {
         font-size: 42px;
         line-height: 46px;
+        max-width: 300px;
     }   
 }
 
-@media all and (max-width: 630px) {
+@media all and (max-width: 740px) {
     .place__title {
         font-size: 32px;
         line-height: 35px;
