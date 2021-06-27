@@ -1,0 +1,21 @@
+.header__logo {
+    width: 176px;
+    margin-top: 28px;
+    margin-bottom: 56px;
+    padding: 0;
+}
+
+@media all and (max-width: 1024px) {
+    .header__logo {
+        margin-top: 28px;
+        margin-bottom: 48px;      
+        }
+}
+
+@media all and (max-width: 425px) {
+    .header__logo {
+    margin-top: 16px;
+    margin-bottom: 48px;
+    max-width: 142px;
+    }
+}
